@@ -384,6 +384,100 @@ return [
 
             ],
         ],
+        'products' => [
+            'fields' => [
+                [
+                    'name' => 'ID',
+                    'value' => 'id',
+                    'type' => 'primary',
+                    'display' => true,
+                    'edit' => false
+                ],
+                [
+                    'name' => 'Title',
+                    'value' => 'title',
+                    'type' => 'string',
+                    'display' => true,
+                    'edit' => true
+                ],
+                [
+                    'name' => 'Seo Title',
+                    'value' => 'seo_title',
+                    'type' => 'string',
+                    'display' => false, //do not display in list.
+                    'edit' => true
+                ],
+                [
+                    'name' => 'Description',
+                    'value' => 'desc',
+                    'type' => 'text',
+                    'display' => true,
+                    'edit' => true
+                ],
+                [
+                    'name' => 'Keywords',
+                    'value' => 'keywords',
+                    'type' => 'text',
+                    'display' => false,
+                    'edit' => true
+                ],
+                [
+                    'name' => 'Content',
+                    'value' => 'content',
+                    'type' => 'editor',
+                    'display' => false,
+                    'edit' => true
+                ],
+                [
+                    'name' => 'Image',
+                    'value' => 'image',
+                    'type' => 'image',
+                    'display' => true,
+                    'edit' => true
+                ],
+                [
+                    'name' => 'Status',
+                    'value' => 'status',
+                    'type' => 'boolean',
+                    'display' => true,
+                    'edit' => true
+                ],
+                [
+                    'name' => 'Views',
+                    'value' => 'views',
+                    'type' => 'integer',
+                    'display' => true,
+                    'edit' => false
+                ],
+
+                [
+                    'name' => 'Content Tab 1',
+                    'value' => 'content_tab1',
+                    'type' => 'text',
+                    'display' => false,
+                    'edit' => true
+                ],
+
+                [
+                    'name' => 'Content Tab 2',
+                    'value' => 'content_tab2',
+                    'type' => 'text',
+                    'display' => false,
+                    'edit' => true
+                ],
+
+                [
+                    'name' => 'Content Tab 3',
+                    'value' => 'content_tab3',
+                    'type' => 'text',
+                    'display' => false,
+                    'edit' => true
+                ],
+
+
+
+            ],
+        ],
         'deliveries' => [
             'fields' => [
                 [
